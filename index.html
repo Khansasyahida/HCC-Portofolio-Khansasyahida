@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Khansa Mutia Syahida Putri Wijaya, mahasiswa Informatika yang tertarik pada pengembangan frontend dan pengalaman digital.">
+  <meta property="og:title" content="Khansa Syahida — Portofolio">
+  <meta property="og:description" content="Ruang untuk karya, proses belajar, dan eksplorasi digital Khansa.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f4f2e9">
+  <title>Khansa Syahida — Portofolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav wrap" aria-label="Navigasi utama">
+      <a class="brand" href="#home" aria-label="Khansa, kembali ke beranda"><span class="brand-mark">K.</span><span>Khansa Syahida</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">Tentang</a>
+        <a href="#projects">Karya</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-button" id="themeToggle" type="button" aria-label="Aktifkan tema gelap" title="Ganti tema">◐</button>
+        <a class="button" href="#contact">Minta CV <span aria-hidden="true">↗</span></a>
+        <button class="menu-button" id="menuToggle" type="button" aria-label="Buka navigasi" aria-expanded="false" aria-controls="navLinks">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-grid">
+        <div class="reveal">
+          <div class="eyebrow">Mahasiswa Informatika · Frontend</div>
+          <h1>Ide baik layak punya <em>ruang digital.</em></h1>
+          <p class="hero-copy">Halo, saya Khansa. Saya tertarik merancang dan membangun pengalaman web yang jelas, responsif, dan menyenangkan untuk digunakan.</p>
+          <div class="hero-actions">
+            <a class="button" href="#projects">Jelajahi karya <span aria-hidden="true">↓</span></a>
+            <a class="button secondary" href="#contact">Mari terhubung <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-note"><span class="availability" aria-hidden="true"></span>Terbuka untuk belajar dan kolaborasi</div>
+        </div>
+        <div class="hero-art reveal" aria-label="Foto suasana tropis">
+          <div class="hero-photo">
+            <img src="assets/the-vibe.jpg" alt="Siluet pohon kelapa dalam suasana senja yang tenang">
+            <span class="photo-caption">Mencari ide, satu langkah setiap hari.</span>
+          </div>
+          <div class="hero-stamp" aria-hidden="true">BELAJAR<br>· BERKARYA ·</div>
+          <div class="index-note"><strong>Ruang proses.</strong><span>Catatan kecil tentang hal-hal yang sedang saya bangun.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Fokus saat ini">
+      <div class="ticker-inner wrap">
+        <span><b>✳</b> Frontend development</span><span><b>✳</b> UI yang intuitif</span><span><b>✳</b> Analisis sistem</span><span><b>✳</b> Belajar sambil berkarya</span>
+      </div>
+    </div>
+
+    <section class="section wrap" id="about">
+      <div class="about-grid">
+        <aside class="about-aside reveal">
+          <span class="about-number">01</span>
+          <p>Kenali orang di balik layar dan proses di balik karya.</p>
+        </aside>
+        <div class="about-main reveal">
+          <div class="section-kicker">Tentang saya</div>
+          <h2>Membuat teknologi terasa lebih dekat dengan manusia.</h2>
+          <p>Saya Khansa Mutia Syahida Putri Wijaya, mahasiswa Informatika yang menikmati proses mengubah ide menjadi pengalaman digital. Ketertarikan saya berada di persimpangan antara antarmuka, logika, dan kebutuhan pengguna.</p>
+          <p>Saat ini saya terus memperkuat fondasi pengembangan web dan analisis sistem melalui proyek serta tugas perkuliahan. Saya percaya hasil yang baik datang dari rasa ingin tahu, komunikasi yang terbuka, dan kemauan untuk mengulang sampai terasa tepat.</p>
+          <div class="timeline" aria-label="Perjalanan belajar">
+            <div class="timeline-row"><time>Sekarang</time><p>Mendalami pengembangan frontend dan praktik membangun web yang responsif.</p></div>
+            <div class="timeline-row"><time>Perkuliahan</time><p>Mempelajari Informatika melalui pemrograman, analisis, dan perancangan sistem.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><div class="section-kicker">Pilihan karya</div><h2>Belajar paling terasa saat sesuatu dibuat.</h2></div>
+          <p>Beberapa studi kasus akademik dan eksplorasi web yang menunjukkan cara saya berpikir serta membangun.</p>
+        </div>
+        <div class="filters reveal" role="group" aria-label="Filter karya">
+          <button class="filter-button" type="button" data-filter="all" aria-pressed="true">Semua karya</button>
+          <button class="filter-button" type="button" data-filter="analisis" aria-pressed="false">Analisis sistem</button>
+          <button class="filter-button" type="button" data-filter="frontend" aria-pressed="false">Frontend</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal" data-category="analisis">
+            <div class="project-visual"><img src="assets/dad_level0_lengkap.png" alt="Diagram konteks sistem rawat inap rumah sakit" loading="lazy"><span class="project-label">Studi kasus · Analisis</span></div>
+            <div class="project-meta"><div><h3>Sistem Rawat Inap Rumah Sakit</h3><p>Pemetaan alur informasi antara pasien, tenaga medis, petugas, dan manajer rumah sakit.</p></div><button class="text-link" type="button" data-project="hospital">Detail <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="project-card reveal" data-category="analisis">
+            <div class="project-visual"><img src="assets/Diagram1.jpeg" alt="Diagram aliran data sistem penggajian pegawai" loading="lazy"><span class="project-label">Studi kasus · Analisis</span></div>
+            <div class="project-meta"><div><h3>Sistem Penggajian Pegawai</h3><p>Perancangan aliran data untuk pengelolaan pegawai, komponen gaji, dan laporan.</p></div><button class="text-link" type="button" data-project="payroll">Detail <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="project-card reveal" data-category="frontend">
+            <div class="project-visual portfolio-preview" aria-label="Pratinjau desain website portofolio">
+              <div class="preview-window"><div class="preview-bar"><i></i><i></i><i></i></div><div class="preview-content"><span>PORTOFOLIO · 2026</span><strong>Ide baik layak<br>punya ruang digital.</strong><div class="preview-line"></div></div></div>
+              <span class="project-label">Eksplorasi · Frontend</span>
+            </div>
+            <div class="project-meta"><div><h3>Website Portofolio Personal</h3><p>Website responsif dengan tema, filter karya, detail proyek, dan formulir kontak.</p></div><button class="text-link" type="button" data-project="portfolio">Detail <span aria-hidden="true">↗</span></button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="skills">
+      <div class="skills-layout">
+        <div class="skills-intro reveal"><div class="section-kicker">Keahlian & minat</div><h2>Fondasi yang terus saya kembangkan.</h2><p>Daftar ini menggambarkan area belajar dan eksplorasi saya saat ini, bukan klaim tingkat kemahiran profesional.</p></div>
+        <div class="skill-list reveal">
+          <div class="skill-row"><span class="number">01</span><strong>HTML & CSS</strong><span>Struktur · Layout · Responsif</span></div>
+          <div class="skill-row"><span class="number">02</span><strong>JavaScript</strong><span>Interaksi · Dasar pemrograman</span></div>
+          <div class="skill-row"><span class="number">03</span><strong>UI / UX</strong><span>Alur · Hierarki · Kejelasan</span></div>
+          <div class="skill-row"><span class="number">04</span><strong>Analisis sistem</strong><span>Proses · Diagram · Dokumentasi</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap contact-section" id="contact">
+      <div class="contact-panel reveal">
+        <div>
+          <div class="section-kicker">Punya ide menarik?</div>
+          <h2>Obrolan baik bisa jadi awal sesuatu.</h2>
+          <p>Saya terbuka untuk pertanyaan, kesempatan belajar, dan kolaborasi. Kirim pesan singkat lewat formulir ini.</p>
+          <a class="button secondary" href="#home">Kembali ke atas <span aria-hidden="true">↑</span></a>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="field"><label for="name">Nama</label><input id="name" name="name" autocomplete="name" placeholder="Nama Anda" required></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="nama@email.com" required></div>
+          <div class="field"><label for="message">Pesan</label><textarea id="message" name="message" placeholder="Ceritakan sedikit tentang yang ingin dibahas..." required></textarea></div>
+          <button class="button lime" type="submit">Siapkan email <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner wrap"><span>© <span id="year">2026</span> Khansa Mutia Syahida Putri Wijaya</span><div class="footer-links"><a href="#about">Tentang</a><a href="#projects">Karya</a><a href="#contact">Kontak</a></div></div>
+  </footer>
+
+  <dialog id="projectDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-content">
+      <div class="dialog-top"><div><div class="section-kicker" id="dialogKicker">Studi kasus</div><h2 id="dialogTitle">Detail karya</h2></div><button class="dialog-close" id="dialogClose" type="button" aria-label="Tutup detail">×</button></div>
+      <p id="dialogDescription"></p><div class="dialog-tags" id="dialogTags"></div>
+    </div>
+  </dialog>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
